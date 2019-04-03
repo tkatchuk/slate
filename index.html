@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {color:#000; margin: 0 auto; padding: 0; text-align:center; }
+
+    body{
+      background-color:#555;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      overflow: hidden;
+      font-family: palatino, serif;
+    }
+
+    #wrapper{
+      position:fixed;
+      display:block;
+      overflow:hidden;
+      top: 35px;
+      left: 35px;
+      right: 35px;
+      bottom: 35px;
+      background-color:#555;
+      z-index:2;
+    }
+
+    #wrapper-inner{
+      position:fixed;
+      display:block;
+      overflow:hidden;
+      top: 45px;
+      left: 45px;
+      right: 45px;
+      bottom: 45px;
+      clear: all;
+      background-color: #EEE;
+      z-index:3;
+    }
+
+    h2{ margin:50px auto 15px; display:inline-block; text-align:center; font-size:55px; font-weight:bold; }
+
+    h3{ margin:20px auto; display:inline-block; text-align:center; font-size:28px; font-weight:bold; }
+
+    p{
+      margin-top: 20px;
+      display:block;
+      width: 60%;
+      width: calc(70% - 90px);
+      max-width:850px;
+      margin: 0 auto;
+      clear: all;
+      font-size: 18px;
+      font-weight: normal;
+      text-align:left !important;
+      line-height:1.5;
+    }
+
+    .spacer{ height:20px; width: auto; display:block; clear: all; }
+
+    .lds-dual-ring {
+      /* display: inline-block; */
+      display: block;
+      width: 56px;
+      height: 56px;
+      margin:0 auto;
+    }
+    .lds-dual-ring:after {
+      content: " ";
+      display: block;
+      width: 40px;
+      height: 40px;
+      margin: 1px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      border-color: #000 transparent #000 transparent;
+      animation: lds-dual-ring 1.2s linear infinite;
+    }
+    @keyframes lds-dual-ring {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script type="text/javascript">
+    // Delayed method if desired
+    function delayedRedirect(){
+      //window.location = "https://tinyurl.com/ybeecf3z";
+    }
+  </script>
+</head>
+<body onLoad="setTimeout('delayedRedirect()', 100)">
+  <div id="wrapper">
+    <div id="wrapper-inner">
+      <div class="spacer"></div>
+      <h2>Slate</h2>
+      <div class="spacer"></div>
+      <div class="lds-dual-ring"></div>
+      <div class="spacer"></div>
+      <h3>Redirecting to <span style="color:red;font-weight:bold;">Aureus Reports</span> by Tyler Brezler</h3>
+      <div class="spacer"></div>
+      <p>If you are not automatically redirected within a second, please click the link below.</p>
+      <div class="spacer"></div>
+      <p>Link: <a href="https://tinyurl.com/ybeecf3z">https://tinyurl.com/ybeecf3z</a></p>
+      <div class="spacer"></div>
+      <p>The purpose of this redirect page is to comply with MIT's Single-Sign On athentication systems. Direct hyperlinks from Microsoft Office products unfortunately lose your SSO certification which is required to access these pages.</p>
+    </div>
+  </div>
+</body>
+</html>
